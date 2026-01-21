@@ -16,7 +16,7 @@ decimal hitungtotalbayar (int jml_item, int hrg_item, decimal diskon)
 {
     return jml_item * hrg_item - diskon;
 }
-
+Console.WriteLine("  ");
 Console.WriteLine("Masukkan jumlah item: ");
 jumlahitem = int.Parse(Console.ReadLine());
 
